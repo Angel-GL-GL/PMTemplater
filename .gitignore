@@ -35,3 +35,4 @@ build/
 # Ignorar claves JWT
 src/main/resources/jwtKeys/private_key.pem
 src/main/resources/jwtKeys/public_key.pem
+src/main/resources/application.properties
