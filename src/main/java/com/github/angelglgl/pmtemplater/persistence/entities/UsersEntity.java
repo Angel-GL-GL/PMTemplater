@@ -17,6 +17,8 @@ public class UsersEntity {
     private String userFirstname;
     @Column(name = "user_lastname")
     private String userLastname;
+    @Column(name = "user_team")
+    private String userTeam;
     @Column(name = "user_role")
     private String userRole;
     private String userEmail;
