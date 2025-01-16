@@ -76,6 +76,8 @@ public class AuthServiceImpl implements IAuthService {
             BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(12);
             user.setUserPassword(encoder.encode(user.getUserPassword()));
 
+            user.setUserStatus("active");
+
             usersRepository.save(user);
 
             response.setMessage("User registered successfully");
