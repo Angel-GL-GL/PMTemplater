@@ -23,4 +23,6 @@ public class UsersEntity {
     private String userRole;
     private String userEmail;
     private String userPassword;
+    @Column(name = "user_status")
+    private String userStatus;
 }
